@@ -1,8 +1,8 @@
 class body:
-    def __init__(self):
-        self.name = "Body"
-        self.age = 30
-        self.gender = "Male"
+    def __init__(self,name,age,gender):
+        self.name = name
+        self.age = age
+        self.gender = gender
     def print_info(self):
         print("Name:",self.name)
         print("Age:",self.age)
